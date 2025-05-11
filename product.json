@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone X",
+        "price": 699,
+        "category": "electronics",
+        "image": "images/smartphone.jpg",
+        "description": "Latest smartphone with 5G."
+    },
+    {
+        "id": 2,
+        "name": "Wireless Earbuds",
+        "price": 129,
+        "category": "accessories",
+        "image": "images/earbuds.jpg",
+        "description": "High-quality sound."
+    },
+    {
+        "id": 3,
+        "name": "Laptop Pro",
+        "price": 999,
+        "category": "electronics",
+        "image": "images/laptop.jpg",
+        "description": "Powerful laptop for pros."
+    },
+    {
+        "id": 4,
+        "name": "Smart Watch",
+        "price": 199,
+        "category": "accessories",
+        "image": "images/watch.jpg",
+        "description": "Track your fitness."
+    },
+    {
+        "id": 5,
+        "name": "Maasai Beaded Charger",
+        "price": 49,
+        "category": "made-in-kenya",
+        "image": "images/charger.jpg",
+        "description": "Handcrafted by Kenyan artists."
+    }
+]

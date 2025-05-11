@@ -1,0 +1,66 @@
+/* Custom styles to complement Tailwind */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.product-card {
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+#theme-toggle i {
+    transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover i {
+    transform: rotate(180deg);
+}
+
+#mobile-menu {
+    transition: all 0.3s ease;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Countdown Timer */
+#countdown {
+    color: #ef4444;
+    font-size: 1.5rem;
+}
+
+/* Vibe Mode Cosmic Background */
+.vibe-mode {
+    background: url('https://images.unsplash.com/photo-1464802686167-b939a6910659') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 1s ease;
+}
+
+/* Made in Kenya Badge */
+.made-in-kenya {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: linear-gradient(45deg, #ff0000, #008000, #000000);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}

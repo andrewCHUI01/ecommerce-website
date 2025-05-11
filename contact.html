@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTrend | Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1F2937">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <!-- Dark Mode Toggle and Navigation (same as index.html) -->
+    <button id="theme-toggle" class="fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700" aria-label="Toggle dark mode">
+        <i class="bi bi-moon-stars-fill text-gray-900 dark:text-gray-100"></i>
+    </button>
+    <nav class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-red-500">TechTrend</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-green-500">Home</a>
+                <a href="shop.html" class="hover:text-green-500">Shop</a>
+                <a href="cart.html" class="hover:text-green-500"><i class="bi bi-cart"></i> Cart (<span id="cart-count">0</span>)</a>
+                <a href="about.html" class="hover:text-green-500">About</a>
+                <a href="contact.html" class="hover:text-green-500">Contact</a>
+            </div>
+            <button class="md:hidden bi bi-list text-2xl" id="menu-toggle" aria-label="Toggle menu"></button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-800">
+            <a href="index.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Home</a>
+            <a href="shop.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Shop</a>
+            <a href="cart.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Cart (<span id="cart-count-mobile">0</span>)</a>
+            <a href="about.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">About</a>
+            <a href="contact.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-700">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center" data-aos="fade-up">Contact Us</h2>
+            <form class="max-w-lg mx-auto" id="contact-form">
+                <div class="mb-4">
+                    <label class="block mb-2">Name</label>
+                    <input type="text" class="w-full p-3 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2">Email</label>
+                    <input type="email" class="w-full p-3 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label class="block mb-2">Message</label>
+                    <textarea class="w-full p-3 rounded" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 w-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-900 text-gray-100 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 TechTrend. All Rights Reserved.</p>
+            <div class="mt-4">
+                <a href="tel:+254702712926" class="mx-2"><i class="bi bi-phone"></i> +254 702 712 926</a>
+                <a href="https://wa.me/+254702712926" class="mx-2"><i class="bi bi-whatsapp"></i> WhatsApp Us</a>
+                <i class="bi bi-star-fill text-yellow-500 cursor-pointer" id="vibe-mode" aria-label="Toggle Vibe Mode"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
